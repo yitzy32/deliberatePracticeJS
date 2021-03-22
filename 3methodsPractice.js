@@ -25,16 +25,13 @@
 // });
 
 // # 3. Write a program that asks the user to enter two numbers, then prints the numbers added together.
-// -----------------COME BACK HERE---------------
-// const readline = require('readline').createInterface({
-//   input: process.stdin,
-//   output: process.stdout
-// });
- 
-// readline.question('Please enter a number', number1 => {
-//   console.log(parseInt(number1, 10) + 1);
-//   readline.close();
-// });
+
+// let number1 = prompt("Please enter a number");
+// let number2 = prompt("Thanks. Please enter another number");
+
+// let sum = parseInt(number1) + parseInt(number2);
+
+// console.log(sum);
 
 // # 4. Write a program that asks the user to enter a word, then prints that word in reverse order.
 
@@ -61,18 +58,11 @@
 // });
 
 // # 6. Write a program that asks the user to enter two words, then prints both words on the same line in all capital letters.
-// -----------------COME BACK HERE---------------
 
-// const readline = require('readline').createInterface({
-//   input: process.stdin,
-//   output: process.stdout
-// });
- 
-// readline.question('Please enter two words.', words => {
-//   console.log(words.toUpperCase());
-//   readline.close();
-// });
+// let firstWord = prompt("Please enter a word");
+// let secondWord = prompt("Please enter another word");
 
+// console.log(firstWord.toUpperCase(), secondWord.toUpperCase());
 // # 7. Write a program that asks the user to enter a word, then prints the number of letters in the word.
 
 // const readline = require('readline').createInterface({
@@ -103,16 +93,12 @@
 
 // -----------------COME BACK HERE---------------
 
-// const readline = require('readline').createInterface({
-//   input: process.stdin,
-//   output: process.stdout
-// });
- 
-// readline.question('Please enter two numbers.', number => {
-//   let number1 = parseInt(number);
-//   console.log(number1);
-//   readline.close();
-// });
+// let number1 = prompt("Please enter a number");
+// let number2 = prompt("Thanks. Please enter another number");
+
+// let product = parseInt(number1) * parseInt(number2);
+
+// console.log(product);
 
 // # 10. Write a program that asks the user to enter a word, then prints "That's a long word" if the word has more than 5 letters.
 
